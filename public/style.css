@@ -1,0 +1,126 @@
+.active {
+  color: white !important;
+  background-color: #cd113b; 
+  border-radius: 20px; 
+}
+
+#logout {
+  display: none;
+}
+.card {
+  width: 18rem;
+  margin: 20px;
+  background-color: #e97777;
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.events,
+.workshops {
+  margin-top: 5%;
+  width: 260px;
+  height: 175px;
+}
+
+.stores {
+  margin: 5%;
+  width: 260px;
+  height: 250px;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif; 
+  background-color: #f8f988;
+}
+
+.login-container {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.login-form {
+  background-color: #cd113b;
+  padding: 40px; 
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 400px;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 8px 20px; 
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.register-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.bg-body-tertiary {
+  margin: 1%;
+  background-color: #f8f988 !important;
+}
+
+#logout {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.admin {
+  display: none;
+}
+
+svg {
+  margin: 10px;
+}
+
+.active {
+  color: white !important;
+  background-color: #cd113b;
+  border-radius: 20px;
+}
+
+.btn-primary,
+.btn-danger,
+.btn {
+  background-color: #cd113b !important;
+  border-color: #cd113b !important;
+  border-radius: 20px !important;
+  margin: 2px;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+  background-color: #e97777;
+  border-color: indianred;
+}
